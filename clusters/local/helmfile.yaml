@@ -6,7 +6,7 @@ releases:
   - name: prometheus
     namespace: observability
     chart: prometheus-community/kube-prometheus-stack
-    disableValidationOnInstall: true
+    disableValidationOnInstall: false
 
 helmDefaults:
   timeout: 900
